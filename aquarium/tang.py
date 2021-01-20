@@ -9,3 +9,7 @@ class Tang(Fish):
     def feed(self):
         self.weight += 1
 
+    def status(self):
+        print(
+            str(self.name) + ", weight: " + str(self.weight) + " colour: " + str(self.color) + " memory loss: " + str(
+                self.memory_loss))

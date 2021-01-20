@@ -1,3 +1,4 @@
+# parent class for method templates
 class Fish():
 
     def __init__(self):
@@ -6,8 +7,7 @@ class Fish():
         self.color = ""
 
     def status(self):
-        pass
+        print(str(self.name) + ", weight: " + str(self.weight) + ", color: " + str(self.color))
 
     def feed(self):
-        pass
-
+        self.weight += 1
